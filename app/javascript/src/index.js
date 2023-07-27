@@ -29,7 +29,7 @@ $(document).ready(function () {
                 <div class="col-1">
                   <input type="checkbox" class="mark-complete" data-id="${task.id}"${task.completed ? ' checked' : ''}>
                 </div>
-                <div class="col-5 text-white bold">
+                <div class="col-5 text-black font-weight-bold">
                   ${task.content}
                 </div>
                 <div class="col-2">
